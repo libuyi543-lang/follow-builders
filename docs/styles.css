@@ -382,6 +382,19 @@ button { font: inherit; color: inherit; }
   .picks { border-left: 0; padding-left: 0; margin-top: 26px; }
   .columns { column-count: 1; }
   .wire { grid-template-columns: 1fr; }
+
+  /* Roster rows: the name and the readout stack instead of sharing a squeezed grid. */
+  .row, [data-static] .row {
+    grid-template-columns: 34px minmax(0, 1fr) 64px;
+    grid-template-areas: "avatar who status" "bars bars bars";
+    gap: 8px 12px;
+    align-items: start;
+  }
+  .row .avatar { grid-area: avatar; }
+  .row .who { grid-area: who; }
+  .row .status { grid-area: status; justify-self: end; }
+  .row .bars { grid-area: bars; }
+  .row .when, .row .ops { display: none; }
 }
 
 @media print {
