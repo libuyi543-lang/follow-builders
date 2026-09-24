@@ -3,54 +3,66 @@
 // ============================================================================
 // Follow Builders — Prepare Digest
 // ============================================================================
-// Gathers everything the LLM needs to produce a digest:
-// - Fetches the central feeds (tweets + podcasts)
-// - Fetches the latest prompts from GitHub
+// Gathers source items for a complete daily digest:
+// - Reads zarazhangrui's central feeds (X, podcasts, blogs) from GitHub
+// - Keeps every central-feed tweet that hasn't run in an earlier issue, so the
+//   feed's 14:00 (Beijing) publish time doesn't clip what a 07:00 run sees
+// - Records a per-account status for the dashboard
 // - Reads the user's config (language, delivery method)
 // - Outputs a single JSON blob to stdout
-//
-// The LLM's ONLY job is to read this JSON, remix the content, and output
-// the digest text. Everything else is handled here deterministically.
 //
 // Usage: node prepare-digest.js
 // Output: JSON to stdout
 // ============================================================================
 
-import { readFile, mkdir } from 'fs/promises';
+import { readFile } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join } from 'path';
-import { homedir } from 'os';
+import { USER_DIR, listIssueDates, localDate, readIssue } from './lib/archive.js';
+import { loadRoster } from './lib/roster.js';
 
 // -- Constants ---------------------------------------------------------------
 
-const USER_DIR = join(homedir(), '.follow-builders');
 const CONFIG_PATH = join(USER_DIR, 'config.json');
 
 const FEED_X_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json';
 const FEED_PODCASTS_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json';
 const FEED_BLOGS_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-blogs.json';
 
-const PROMPTS_BASE = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/prompts';
-const PROMPT_FILES = [
-  'summarize-podcast.md',
-  'summarize-tweets.md',
-  'summarize-blogs.md',
-  'digest-intro.md',
-  'translate.md'
-];
+// Hard ceiling on tweet age; dedup against past issues does the real work.
+const X_MAX_AGE_HOURS = 48;
+const DEDUP_ISSUES = 7;
+const FEED_STALE_HOURS = 30;
+// At 07:00 the Mac may have just woken up and the proxy may not be ready yet.
+const RETRY_DELAYS_MS = [5000, 20000];
 
 // -- Fetch helpers -----------------------------------------------------------
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
 async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) return null;
-  return res.json();
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt++) {
+    try {
+      const res = await fetch(url, { signal: AbortSignal.timeout(15000) });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    } catch {
+      if (attempt < RETRY_DELAYS_MS.length) await sleep(RETRY_DELAYS_MS[attempt]);
+    }
+  }
+  return null;
 }
 
-async function fetchText(url) {
-  const res = await fetch(url);
-  if (!res.ok) return null;
-  return res.text();
+// Tweet ids already printed in earlier issues (today's issue excluded, so a reprint keeps its tweets).
+async function publishedTweetIds(today) {
+  const dates = (await listIssueDates()).filter((date) => date < today).slice(-DEDUP_ISSUES);
+  const ids = new Set();
+  for (const issue of await Promise.all(dates.map(readIssue))) {
+    for (const account of issue?.digest?.x || []) {
+      for (const tweet of account.tweets || []) ids.add(tweet.id);
+    }
+  }
+  return ids;
 }
 
 // -- Main --------------------------------------------------------------------
@@ -71,71 +83,52 @@ async function main() {
       errors.push(`Could not read config: ${err.message}`);
     }
   }
+  const today = localDate(new Date(), config.timezone || 'Asia/Shanghai');
 
-  // 2. Fetch all three feeds
-  const [feedX, feedPodcasts, feedBlogs] = await Promise.all([
-    fetchJSON(FEED_X_URL),
+  // 2. Fetch the central feeds and the roster
+  const [feedPodcasts, feedBlogs, feedX, roster, published] = await Promise.all([
     fetchJSON(FEED_PODCASTS_URL),
-    fetchJSON(FEED_BLOGS_URL)
+    fetchJSON(FEED_BLOGS_URL),
+    fetchJSON(FEED_X_URL),
+    loadRoster(),
+    publishedTweetIds(today)
   ]);
 
-  if (!feedX) errors.push('Could not fetch tweet feed');
   if (!feedPodcasts) errors.push('Could not fetch podcast feed');
   if (!feedBlogs) errors.push('Could not fetch blog feed');
-  if (feedX?.errors?.length) {
-    errors.push(
-      ...feedX.errors.map((error) => `Tweet feed problem: ${error}`)
-    );
+  if (!feedX) errors.push('中央 feed 取稿失败（GitHub 连不上）');
+  if (roster.stale) errors.push('名单同步失败，沿用上次的名单');
+  const feedAgeHours = feedX?.generatedAt ? (Date.now() - Date.parse(feedX.generatedAt)) / 3600000 : null;
+  if (feedAgeHours != null && feedAgeHours > FEED_STALE_HOURS) {
+    errors.push(`中央 feed 已 ${Math.round(feedAgeHours)} 小时未更新`);
   }
-  if (feedPodcasts?.errors?.length) {
-    errors.push(
-      ...feedPodcasts.errors.map((error) => `Podcast feed problem: ${error}`)
-    );
-  }
-  if (feedBlogs?.errors?.length) {
-    errors.push(
-      ...feedBlogs.errors.map((error) => `Blog feed problem: ${error}`)
-    );
+  // Problems the central feed itself reported (upstream surfaces these too).
+  for (const [label, feed] of [['推文', feedX], ['播客', feedPodcasts], ['博客', feedBlogs]]) {
+    for (const error of feed?.errors || []) errors.push(`中央${label} feed 报告：${error}`);
   }
 
-  // 3. Load prompts with priority: user custom > remote (GitHub) > local default
-  //
-  // If the user has a custom prompt at ~/.follow-builders/prompts/<file>,
-  // use that (they personalized it — don't overwrite with remote updates).
-  // Otherwise, fetch the latest from GitHub so they get central improvements.
-  // If GitHub is unreachable, fall back to the local copy shipped with the skill.
-  const prompts = {};
-  const scriptDir = decodeURIComponent(new URL('.', import.meta.url).pathname);
-  const localPromptsDir = join(scriptDir, '..', 'prompts');
-  const userPromptsDir = join(USER_DIR, 'prompts');
+  // 3. Pick this issue's tweets for every non-muted account
+  const active = roster.accounts.filter((account) => !account.muted);
+  const feedByHandle = new Map((feedX?.x || []).map((a) => [String(a.handle).toLowerCase(), a]));
+  const sinceMs = Date.now() - X_MAX_AGE_HOURS * 3600000;
 
-  for (const filename of PROMPT_FILES) {
-    const key = filename.replace('.md', '').replace(/-/g, '_');
-    const userPath = join(userPromptsDir, filename);
-    const localPath = join(localPromptsDir, filename);
-
-    // Priority 1: user's custom prompt (they personalized it)
-    if (existsSync(userPath)) {
-      prompts[key] = await readFile(userPath, 'utf-8');
+  const xContent = [];
+  const accountStatus = [];
+  for (const account of active) {
+    const base = { name: account.name, handle: account.handle, category: account.category };
+    if (!feedX) {
+      accountStatus.push({ handle: account.handle, status: 'failed', tweetCount: 0, error: '中央 feed 取稿失败' });
       continue;
     }
-
-    // Priority 2: latest from GitHub (central updates)
-    const remote = await fetchText(`${PROMPTS_BASE}/${filename}`);
-    if (remote) {
-      prompts[key] = remote;
-      continue;
-    }
-
-    // Priority 3: local copy shipped with the skill
-    if (existsSync(localPath)) {
-      prompts[key] = await readFile(localPath, 'utf-8');
-    } else {
-      errors.push(`Could not load prompt: ${filename}`);
-    }
+    const entry = feedByHandle.get(account.handle.toLowerCase());
+    const tweets = (entry?.tweets || []).filter((t) =>
+      !published.has(t.id) && t.createdAt && Date.parse(t.createdAt) >= sinceMs
+    );
+    if (entry) xContent.push({ source: 'x', bio: entry.bio || '', ...base, tweets });
+    accountStatus.push({ handle: account.handle, status: tweets.length ? 'ok' : 'quiet', tweetCount: tweets.length });
   }
 
-  // 4. Build the output — everything the LLM needs in one blob
+  // 4. Build the output for deterministic delivery.
   const output = {
     status: 'ok',
     generatedAt: new Date().toISOString(),
@@ -149,20 +142,26 @@ async function main() {
 
     // Content to remix
     podcasts: feedPodcasts?.podcasts || [],
-    x: feedX?.x || [],
+    x: xContent,
+    followedAccounts: active.map(({ name, handle, category }) => ({ name, handle, category })),
+    accountStatus,
     blogs: feedBlogs?.blogs || [],
-
-    // Stats for the LLM to reference
-    stats: {
-      podcastEpisodes: feedPodcasts?.podcasts?.length || 0,
-      xBuilders: feedX?.x?.length || 0,
-      totalTweets: (feedX?.x || []).reduce((sum, a) => sum + a.tweets.length, 0),
-      blogPosts: feedBlogs?.blogs?.length || 0,
-      feedGeneratedAt: feedX?.generatedAt || feedPodcasts?.generatedAt || feedBlogs?.generatedAt || null
+    feedStatus: {
+      podcastsAvailable: Boolean(feedPodcasts),
+      blogsAvailable: Boolean(feedBlogs),
+      xSource: 'central-feed',
+      xGeneratedAt: feedX?.generatedAt || null,
+      rosterSyncedAt: roster.syncedAt
     },
 
-    // Prompts — the LLM reads these and follows the instructions
-    prompts,
+    // Content counts for the digest header
+    stats: {
+      podcastEpisodes: feedPodcasts?.podcasts?.length || 0,
+      xBuilders: xContent.filter((a) => a.tweets.length).length,
+      totalTweets: xContent.reduce((sum, a) => sum + (a.tweets?.length || 0), 0),
+      blogPosts: feedBlogs?.blogs?.length || 0,
+      feedGeneratedAt: feedX?.generatedAt || new Date().toISOString()
+    },
 
     // Non-fatal errors
     errors: errors.length > 0 ? errors : undefined

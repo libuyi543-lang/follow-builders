@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Ciguleva",
+    "handle": "ciguleva",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Pieter Levels",
+    "handle": "levelsio",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Zara Zhang",
+    "handle": "zarazhangrui",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Gary",
+    "handle": "otzgary",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "10x My Life",
+    "handle": "10xmylife",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "OpenAI",
+    "handle": "OpenAI",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Grok",
+    "handle": "grok",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Gemini",
+    "handle": "GeminiApp",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Google",
+    "handle": "Google",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Google DeepMind",
+    "handle": "GoogleDeepMind",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "DeepSeek",
+    "handle": "deepseek_ai",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Sam Altman",
+    "handle": "sama",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "a16z",
+    "handle": "a16z",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "TechFlow",
+    "handle": "TechFlowPost",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Z.ai",
+    "handle": "Zai_org",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "OpenAI Developers",
+    "handle": "OpenAIDevs",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Claude",
+    "handle": "claudeai",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Midjourney",
+    "handle": "midjourney",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "晚点 LatePost",
+    "handle": "latepostnews",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Cursor",
+    "handle": "cursor_ai",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Hyperliquid",
+    "handle": "HyperliquidX",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "A24",
+    "handle": "A24",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Kimi",
+    "handle": "Kimi_Moonshot",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Andrej Karpathy",
+    "handle": "karpathy",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Swyx",
+    "handle": "swyx",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Josh Woodward",
+    "handle": "joshwoodward",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Kevin Weil",
+    "handle": "kevinweil",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Peter Yang",
+    "handle": "petergyang",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Nan Yu",
+    "handle": "thenanyu",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Madhu Guru",
+    "handle": "realmadhuguru",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Amanda Askell",
+    "handle": "AmandaAskell",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Cat Wu",
+    "handle": "_catwu",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Thariq",
+    "handle": "trq212",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Google Labs",
+    "handle": "GoogleLabs",
+    "category": "official",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Amjad Masad",
+    "handle": "amasad",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Guillermo Rauch",
+    "handle": "rauchg",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Alex Albert",
+    "handle": "alexalbert__",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Aaron Levie",
+    "handle": "levie",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Ryo Lu",
+    "handle": "ryolu_",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Garry Tan",
+    "handle": "garrytan",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Matt Turck",
+    "handle": "mattturck",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Nikunj Kothari",
+    "handle": "nikunj",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Peter Steinberger",
+    "handle": "steipete",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Dan Shipper",
+    "handle": "danshipper",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  },
+  {
+    "name": "Aditya Agarwal",
+    "handle": "adityaag",
+    "category": "influencer",
+    "muted": false,
+    "addedAt": "2026-09-23"
+  }
+]

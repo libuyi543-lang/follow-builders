@@ -5,7 +5,12 @@
   "type": "module",
   "scripts": {
     "generate-feed": "node generate-feed.js",
-    "prepare-digest": "node prepare-digest.js"
+    "prepare-digest": "node prepare-digest.js",
+    "render-digest": "node render-digest.js",
+    "summarize-digest": "node summarize-digest.js",
+    "daily": "node run-daily.js",
+    "dashboard": "node ../dashboard/server.js",
+    "export-dashboard": "node ../dashboard/export-static.js"
   },
   "dependencies": {
     "dotenv": "^16.4.0",

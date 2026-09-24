@@ -42,9 +42,9 @@
       "properties": {
         "method": {
           "type": "string",
-          "enum": ["stdout", "telegram", "email"],
+          "enum": ["stdout", "telegram", "feishu", "email"],
           "default": "stdout",
-          "description": "Delivery method: stdout (terminal/agent), telegram (bot message), email (via Resend)"
+          "description": "Delivery method: stdout (terminal/agent), telegram (bot message), feishu (incoming webhook), email (via Resend)"
         },
         "chatId": {
           "type": "string",

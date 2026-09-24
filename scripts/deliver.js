@@ -4,7 +4,7 @@
 // Follow Builders — Delivery Script
 // ============================================================================
 // Sends a digest to the user via their chosen delivery method.
-// Supports: Telegram bot, Email (via Resend), or stdout (default).
+// Supports: Telegram bot, Feishu webhook, Email (via Resend), or stdout (default).
 //
 // Usage:
 //   echo "digest text" | node deliver.js
@@ -16,6 +16,7 @@
 //
 // Delivery methods:
 //   - "telegram": sends via Telegram Bot API (needs TELEGRAM_BOT_TOKEN + chat ID)
+//   - "feishu": sends via Feishu incoming webhook (needs FEISHU_WEBHOOK_URL)
 //   - "email": sends via Resend API (needs RESEND_API_KEY + email address)
 //   - "stdout" (default): just prints to terminal
 // ============================================================================
@@ -149,6 +150,47 @@ async function sendEmail(text, apiKey, toEmail) {
   }
 }
 
+// -- Feishu Delivery ---------------------------------------------------------
+
+async function sendFeishu(text, webhookUrl) {
+  const MAX_LEN = 9000;
+  const chunks = [];
+  let remaining = text;
+
+  while (remaining.length > 0) {
+    if (remaining.length <= MAX_LEN) {
+      chunks.push(remaining);
+      break;
+    }
+    let splitAt = remaining.lastIndexOf('\n', MAX_LEN);
+    if (splitAt < MAX_LEN * 0.5) splitAt = MAX_LEN;
+    chunks.push(remaining.slice(0, splitAt));
+    remaining = remaining.slice(splitAt).trimStart();
+  }
+
+  for (const chunk of chunks) {
+    const res = await fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        msg_type: 'text',
+        content: {
+          text: chunk
+        }
+      })
+    });
+
+    if (!res.ok) {
+      const body = await res.text();
+      throw new Error(`Feishu webhook error: HTTP ${res.status} ${body}`);
+    }
+    const result = await res.json();
+    if (result.code !== 0 && result.StatusCode !== 0) {
+      throw new Error(`Feishu webhook rejected message: ${JSON.stringify(result)}`);
+    }
+  }
+}
+
 // -- Main --------------------------------------------------------------------
 
 async function main() {
@@ -194,6 +236,18 @@ async function main() {
           status: 'ok',
           method: 'email',
           message: `Digest sent to ${toEmail}`
+        }));
+        break;
+      }
+
+      case 'feishu': {
+        const webhookUrl = process.env.FEISHU_WEBHOOK_URL;
+        if (!webhookUrl) throw new Error('FEISHU_WEBHOOK_URL not found in .env');
+        await sendFeishu(digestText, webhookUrl);
+        console.log(JSON.stringify({
+          status: 'ok',
+          method: 'feishu',
+          message: 'Digest sent to Feishu'
         }));
         break;
       }
