@@ -102,10 +102,9 @@ async function main() {
   if (feedAgeHours != null && feedAgeHours > FEED_STALE_HOURS) {
     errors.push(`中央 feed 已 ${Math.round(feedAgeHours)} 小时未更新`);
   }
-  // Problems the central feed itself reported (upstream surfaces these too).
-  for (const [label, feed] of [['推文', feedX], ['播客', feedPodcasts], ['博客', feedBlogs]]) {
-    for (const error of feed?.errors || []) errors.push(`中央${label} feed 报告：${error}`);
-  }
+  // Problems the central tweet feed itself reported. Podcast/blog feed errors
+  // (upstream surfaces those too) are left out: the digest only prints tweets.
+  for (const error of feedX?.errors || []) errors.push(`中央 feed 报告：${error}`);
 
   // 3. Pick this issue's tweets for every non-muted account
   const active = roster.accounts.filter((account) => !account.muted);
