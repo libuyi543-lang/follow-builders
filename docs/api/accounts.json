@@ -1,0 +1,546 @@
+{
+  "syncedAt": "2026-09-24T15:03:12.031Z",
+  "stale": false,
+  "days": [
+    "2026-09-23",
+    "2026-09-24"
+  ],
+  "accounts": [
+    {
+      "name": "Andrej Karpathy",
+      "handle": "karpathy",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "",
+      "lastTweetAt": null,
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Swyx",
+      "handle": "swyx",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @smol_ai\n- @dxtipshq\n- @cognition\n- @aidotengineer\n- @latentspacepod",
+      "lastTweetAt": "2026-09-24T01:49:41.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 3,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+      "lastTweetAt": "2026-09-23T16:40:12.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 1,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 1,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Boris Cherny",
+      "handle": "bcherny",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Claude Code @anthropicai",
+      "lastTweetAt": "2026-09-24T03:59:58.000Z",
+      "days": [
+        {
+          "date": "2026-09-24",
+          "count": 3,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Thibault Sottiaux",
+      "handle": "thsottiaux",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Codex & ChatGPT @OpenAI",
+      "lastTweetAt": "2026-09-24T05:39:27.000Z",
+      "days": [
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+      "lastTweetAt": "2026-09-24T03:02:21.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 3,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "",
+      "lastTweetAt": null,
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Madhu Guru",
+      "handle": "realmadhuguru",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Sr Director, AI at Meta; Prev: Google - Led Gemini, Veo, Nano Banana.",
+      "lastTweetAt": "2026-09-23T15:11:41.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 1,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Amanda Askell",
+      "handle": "AmandaAskell",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "",
+      "lastTweetAt": null,
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Cat Wu",
+      "handle": "_catwu",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+      "lastTweetAt": "2026-09-23T01:25:15.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 2,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Thariq",
+      "handle": "trq212",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+      "lastTweetAt": "2026-09-23T21:19:17.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 3,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Google Labs",
+      "handle": "GoogleLabs",
+      "category": "official",
+      "muted": false,
+      "avatar": null,
+      "bio": "",
+      "lastTweetAt": null,
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "ceo @replit. civilizationist",
+      "lastTweetAt": "2026-09-24T01:55:11.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 1,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Guillermo Rauch",
+      "handle": "rauchg",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "@vercel CEO",
+      "lastTweetAt": "2026-09-24T02:26:27.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Alex Albert",
+      "handle": "alexalbert__",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Research @AnthropicAI. Opinions are my own!",
+      "lastTweetAt": "2026-09-22T18:34:16.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "lastTweetAt": "2026-09-24T01:35:19.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 2,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Ryo Lu",
+      "handle": "ryolu_",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Designed @Cursor_ai, @NotionHQ, @Stripe, built startups. I make a world where anyone can make software. Aspiring k-pop idol.",
+      "lastTweetAt": "2026-09-24T01:29:48.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 1,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "lastTweetAt": "2026-09-24T04:11:27.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 3,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Matt Turck",
+      "handle": "mattturck",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "",
+      "lastTweetAt": null,
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Zara Zhang",
+      "handle": "zarazhangrui",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "",
+      "lastTweetAt": null,
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 0,
+          "status": "unsourced"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "lastTweetAt": "2026-09-24T05:16:16.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 1,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+      "lastTweetAt": "2026-09-24T06:01:13.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 1,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 3,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "lastTweetAt": "2026-09-23T18:26:05.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Aditya Agarwal",
+      "handle": "adityaag",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+      "lastTweetAt": "2026-09-24T02:30:35.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 2,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "name": "Sam Altman",
+      "handle": "sama",
+      "category": "influencer",
+      "muted": false,
+      "avatar": null,
+      "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+      "lastTweetAt": "2026-09-22T21:38:07.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 0,
+          "status": "quiet"
+        }
+      ]
+    },
+    {
+      "name": "Claude",
+      "handle": "claudeai",
+      "category": "official",
+      "muted": false,
+      "avatar": null,
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+      "lastTweetAt": "2026-09-23T19:21:43.000Z",
+      "days": [
+        {
+          "date": "2026-09-23",
+          "count": 3,
+          "status": "central"
+        },
+        {
+          "date": "2026-09-24",
+          "count": 2,
+          "status": "ok"
+        }
+      ]
+    }
+  ]
+}

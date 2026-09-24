@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-09-24",
+    "number": 2,
+    "headline": "模型之外，外壳与市集成胜负手",
+    "tweets": 37,
+    "voices": 17,
+    "failures": 0,
+    "state": "ok"
+  },
+  {
+    "date": "2026-09-23",
+    "number": 1,
+    "headline": "模型齐降价，Agent 经济性重估",
+    "tweets": 34,
+    "voices": 15,
+    "failures": 0,
+    "state": "ok"
+  }
+]

@@ -1,0 +1,1170 @@
+{
+  "version": 1,
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T15:59:13.855Z",
+  "digest": {
+    "status": "ok",
+    "generatedAt": "2026-09-23T15:59:13.855Z",
+    "config": {
+      "language": "zh",
+      "frequency": "daily",
+      "delivery": {
+        "method": "feishu"
+      }
+    },
+    "podcasts": [],
+    "x": [
+      {
+        "source": "x",
+        "name": "Sam Altman",
+        "handle": "sama",
+        "bio": "The mission of OpenAI is to ensure that AGI benefits all of humanity",
+        "tweets": [
+          {
+            "id": "2102512794235207758",
+            "text": "argh i meant VOICE not video :(\n\nsorry to dissapoint",
+            "createdAt": "2026-09-22T21:38:07.000Z",
+            "url": "https://x.com/sama/status/2102512794235207758",
+            "likes": 855,
+            "retweets": 16,
+            "replies": 101,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "啊，我说的是 VOICE 不是 video :(\n\n抱歉让你失望了"
+          },
+          {
+            "id": "2102469008079679640",
+            "text": "Startups are naturally good at this; it is hard to keep a bigger company good at this and i think an underexplored space. https://t.co/Sr48wgC0lL",
+            "createdAt": "2026-09-22T18:44:08.000Z",
+            "url": "https://x.com/sama/status/2102469008079679640",
+            "likes": 3675,
+            "retweets": 123,
+            "replies": 272,
+            "isQuote": true,
+            "quotedTweetId": "2102242158292189422",
+            "zh": "创业公司天生就擅长这个；大公司想一直保持这种能力就很难，我觉得这块领域还没被充分探索。https://t.co/Sr48wgC0lL"
+          },
+          {
+            "id": "2102468713866055872",
+            "text": "michelle embodies this as much as anyone\n\nopenai is so, so lucky to have benefited from everything she has done so far and i think people will be quite pleased to see what she + team have cooking next! https://t.co/AVZAtyk6Uc",
+            "createdAt": "2026-09-22T18:42:58.000Z",
+            "url": "https://x.com/sama/status/2102468713866055872",
+            "likes": 2124,
+            "retweets": 58,
+            "replies": 121,
+            "isQuote": true,
+            "quotedTweetId": "2102226720073896367",
+            "zh": "Michelle 把这一点体现得淋漓尽致\n\nOpenAI 能受益于她迄今为止所做的一切，真的是太幸运了，我觉得大家会很惊喜地看到她和团队接下来在搞什么好东西！https://t.co/AVZAtyk6Uc"
+          }
+        ],
+        "category": "official",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Claude",
+        "handle": "claudeai",
+        "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
+        "tweets": [
+          {
+            "id": "2102471892099866883",
+            "text": "Claude Opus 5.5 is available today. What will you explore?",
+            "createdAt": "2026-09-22T18:55:35.000Z",
+            "url": "https://x.com/claudeai/status/2102471892099866883",
+            "likes": 226,
+            "retweets": 5,
+            "replies": 28,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "Claude Opus 5.5 今天上线。你想用它探索点什么？"
+          },
+          {
+            "id": "2102471889092276516",
+            "text": "An algorithmic drawing program created by @kevin_t_ngo. Every drawing is based on a different seed. https://t.co/3qZFPs9mGc",
+            "createdAt": "2026-09-22T18:55:35.000Z",
+            "url": "https://x.com/claudeai/status/2102471889092276516",
+            "likes": 261,
+            "retweets": 7,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "@kevin_t_ngo 做的一个算法绘图程序。每张画都基于不同的随机种子。https://t.co/3qZFPs9mGc"
+          },
+          {
+            "id": "2102471885061812714",
+            "text": "A toy brick-building app. Turn a photo or a description into a buildable model with custom instructions. https://t.co/zDFMIKuXLP",
+            "createdAt": "2026-09-22T18:55:34.000Z",
+            "url": "https://x.com/claudeai/status/2102471885061812714",
+            "likes": 257,
+            "retweets": 7,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "一个积木拼搭 App。把一张照片或一段描述，变成带定制说明书的可拼搭模型。https://t.co/zDFMIKuXLP"
+          }
+        ],
+        "category": "official",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
+        "tweets": [
+          {
+            "id": "2102498448364954083",
+            "text": "Big milestone! https://t.co/2MfmmG5Way",
+            "createdAt": "2026-09-22T20:41:07.000Z",
+            "url": "https://x.com/joshwoodward/status/2102498448364954083",
+            "likes": 235,
+            "retweets": 9,
+            "replies": 9,
+            "isQuote": true,
+            "quotedTweetId": "2102493284690223338",
+            "zh": "重大里程碑！https://t.co/2MfmmG5Way"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "bio": "Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://t.co/6VAA6p81x6",
+        "tweets": [
+          {
+            "id": "2102628682301046875",
+            "text": "Just randomly played this Australian show on Apple TV and it’s another banger https://t.co/Cp2vUitABa https://t.co/mpOYshnd0G",
+            "createdAt": "2026-09-23T05:18:37.000Z",
+            "url": "https://x.com/petergyang/status/2102628682301046875",
+            "likes": 19,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": true,
+            "quotedTweetId": "2101497327861248090",
+            "zh": "刚在 Apple TV 上随手点开了一部澳洲剧，又是一部神作 https://t.co/Cp2vUitABa https://t.co/mpOYshnd0G"
+          },
+          {
+            "id": "2102589061445939508",
+            "text": "@claudeai If you enjoyed this, sign up for free to my newsletter to get my best AI and product guides.\n\nJoin 110,000+ subscribers here:\nhttps://t.co/yz9xcsfrhF",
+            "createdAt": "2026-09-23T02:41:11.000Z",
+            "url": "https://x.com/petergyang/status/2102589061445939508",
+            "likes": 1,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "@claudeai 如果你喜欢这个，欢迎免费订阅我的 newsletter，获取我最好的 AI 和产品指南。\n\n11 万+ 订阅者在这里加入：\nhttps://t.co/yz9xcsfrhF"
+          },
+          {
+            "id": "2102577425838485916",
+            "text": "I talk about why Opus 5.5 is the most excited I've been about a Claude model in awhile here: https://t.co/PBxPzE43Ud",
+            "createdAt": "2026-09-23T01:54:56.000Z",
+            "url": "https://x.com/petergyang/status/2102577425838485916",
+            "likes": 3,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "我在这里聊了聊，为什么 Opus 5.5 是这一阵子最让我兴奋的 Claude 模型：https://t.co/PBxPzE43Ud"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "bio": "claude code + cowork @anthropicai, prev: @dagster, @scale_ai",
+        "tweets": [
+          {
+            "id": "2102569951974584612",
+            "text": "If you’re looking for ways to try Opus 5.5 and Claude Tag in Slack… https://t.co/PpwztYQx2o",
+            "createdAt": "2026-09-23T01:25:15.000Z",
+            "url": "https://x.com/_catwu/status/2102569951974584612",
+            "likes": 119,
+            "retweets": 2,
+            "replies": 7,
+            "isQuote": true,
+            "quotedTweetId": "2102543349102338309",
+            "zh": "如果你想找办法试试 Opus 5.5 和 Slack 里的 Claude Tag…… https://t.co/PpwztYQx2o"
+          },
+          {
+            "id": "2102437713781944397",
+            "text": "Claude Opus 5.5 is now the default model in Claude Code and the Claude app, including Cowork, for Pro, Max, and Team plans. I’ve been using Opus 5.5 as a daily driver and love its clear communication skills and ability to write in my style.\n\nWe’re defaulting to effort medium across products, which is comparable to Fable 5.1 on intelligence but faster. Your rate limits will go 25% further on Opus 5.5 compared to Opus 5.\n\nGive Opus 5.5 an ambitious task and let us know what you think!",
+            "createdAt": "2026-09-22T16:39:47.000Z",
+            "url": "https://x.com/_catwu/status/2102437713781944397",
+            "likes": 1308,
+            "retweets": 35,
+            "replies": 72,
+            "isQuote": true,
+            "quotedTweetId": "2102435511222890900",
+            "zh": "Claude Opus 5.5 现在是 Claude Code 和 Claude App（含 Cowork）的默认模型，覆盖 Pro、Max 和 Team 套餐。我一直把 Opus 5.5 当日常主力用，很喜欢它清晰的沟通能力，以及能用我的风格写作的本事。\n\n我们在所有产品里都默认用 effort medium，智能水平跟 Fable 5.1 相当，但速度更快。相比 Opus 5，你在 Opus 5.5 上的速率限制额度能多用 25%。\n\n给 Opus 5.5 派个有野心的任务，然后告诉我们你觉得怎么样！"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Thariq",
+        "handle": "trq212",
+        "bio": "Claude Code @anthropicai. prev YC W20, @spc, @medialab",
+        "tweets": [
+          {
+            "id": "2102549030303867257",
+            "text": "if you want to make games, 3d generation is a great capability to help you imagine your game come to life\n\nbut you should figure out how to make a good, satisfying game loop first\n\n(talking to myself here)",
+            "createdAt": "2026-09-23T00:02:06.000Z",
+            "url": "https://x.com/trq212/status/2102549030303867257",
+            "likes": 254,
+            "retweets": 5,
+            "replies": 10,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "如果你想做游戏，3D 生成是个很牛的能力，能帮你把游戏的样子想象出来\n\n但你得先搞清楚怎么做出一个好玩的、让人满足的游戏循环\n\n（这是在跟自己说话）"
+          },
+          {
+            "id": "2102548686303854790",
+            "text": "the right way to use model capabilities is not to ship 10x more features to prod\n\nit's to spend more time understanding your users, trying experiments, building prototypes, learning about things you don't understand so that you can ship things that actually work",
+            "createdAt": "2026-09-23T00:00:44.000Z",
+            "url": "https://x.com/trq212/status/2102548686303854790",
+            "likes": 4528,
+            "retweets": 313,
+            "replies": 160,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "用模型能力的正确方式，不是往生产环境里塞 10 倍的功能\n\n而是花更多时间理解你的用户、做实验、搭原型、搞懂你不懂的东西，这样才能上线真正管用的东西"
+          },
+          {
+            "id": "2102477527688388752",
+            "text": "workflows are a huge part of how I use Claude these days, I'm glad we have Fable-like intelligence that works with workflows from a cost perspective",
+            "createdAt": "2026-09-22T19:17:59.000Z",
+            "url": "https://x.com/trq212/status/2102477527688388752",
+            "likes": 73,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "现在我用 Claude，workflows 占了很大一部分。很高兴我们有了接近 Fable 的智能水平，从成本角度看还能和 workflows 配合使用"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "bio": "ceo @replit. civilizationist",
+        "tweets": [
+          {
+            "id": "2102489320766800002",
+            "text": "Your intelligence is fake. It’s artificial.\n\nMine? It’s super. Super Intelligence. Aka SI. https://t.co/oTWHfUUpDP",
+            "createdAt": "2026-09-22T20:04:51.000Z",
+            "url": "https://x.com/amasad/status/2102489320766800002",
+            "likes": 935,
+            "retweets": 37,
+            "replies": 107,
+            "isQuote": true,
+            "quotedTweetId": "2102413962729968116",
+            "zh": "你的智能是假的，是人工的。\n\n我的？是超级的。超级智能。简称 SI。https://t.co/oTWHfUUpDP"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "bio": "@vercel CEO",
+        "tweets": [
+          {
+            "id": "2102594015669756323",
+            "text": "Software will never die again. You liked Google Reader? Cool, you can generate and deploy your own. Yours, forever.",
+            "createdAt": "2026-09-23T03:00:52.000Z",
+            "url": "https://x.com/rauchg/status/2102594015669756323",
+            "likes": 1045,
+            "retweets": 33,
+            "replies": 76,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "软件再也不会死掉了。你喜欢 Google Reader？行啊，你可以自己生成一个、自己部署一个。属于你的，永远都在。"
+          },
+          {
+            "id": "2102519097770885231",
+            "text": "We ran fresh Next.js evals. The tally:\n① Opus 5.5    [𝟿𝟽%]\n② GPT 6 Sol   [𝟿𝟽%]\n③ Fable 5.1     [𝟿𝟽%]\n④ Grok 4.7     [𝟿𝟺%]\n\nNotably, Grok is 2x-7x cheaper https://t.co/BAUg14981G",
+            "createdAt": "2026-09-22T22:03:10.000Z",
+            "url": "https://x.com/rauchg/status/2102519097770885231",
+            "likes": 1087,
+            "retweets": 55,
+            "replies": 133,
+            "isQuote": true,
+            "quotedTweetId": "2102516295715741912",
+            "zh": "我们跑了最新的 Next.js 评测。结果如下：\n① Opus 5.5    [𝟿𝟽%]\n② GPT 6 Sol   [𝟿𝟽%]\n③ Fable 5.1     [𝟿𝟽%]\n④ Grok 4.7     [𝟿𝟺%]\n\n值得一提的是，Grok 便宜 2–7 倍 https://t.co/BAUg14981G"
+          },
+          {
+            "id": "2102438365455167883",
+            "text": "Love the tastefulness with which anthropic ships. \n\nMain reason I got excited about 'headless' for the web is that any given page could take whatever whimsical or unique shape you wanted. With AI, there's no excuse not to push the design frontier.\n\nThis is @nextjs at its finest:\nhttps://t.co/uXM96EijiW",
+            "createdAt": "2026-09-22T16:42:22.000Z",
+            "url": "https://x.com/rauchg/status/2102438365455167883",
+            "likes": 1418,
+            "retweets": 34,
+            "replies": 63,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "太喜欢 anthropic 发布产品时的那份品味了。\n\n我当初对 Web 的「headless」感到兴奋，主要就是因为任何一个页面都能变成你想要的那种天马行空、独一无二的形态。有了 AI，再没理由不去推进设计的边界。\n\n这是 @nextjs 最好的样子：\nhttps://t.co/uXM96EijiW"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "bio": "Research @AnthropicAI. Opinions are my own!",
+        "tweets": [
+          {
+            "id": "2102466524934271381",
+            "text": "Prompt in Claude Tag\n\n\"Recreate Market Street, San Francisco as it stood on April 17, 1906, the afternoon before the earthquake, in Blender.\n\nScope: the Ferry Building up Market to Fifth Street, including the Palace Hotel, the Call Building, the Chronicle Building, Lotta's Fountain and the Emporium.\n\nBefore modeling anything, build a source file from: the 1899-1905 Sanborn fire insurance maps (footprints, heights, materials, occupants), the Miles Brothers film \"A Trip Down Market Street\" (April 1906), period photographs from OpenSFHistory, the Library of Congress and the David Rumsey collection, and USGS topography. Record every building with footprint, height, facade material, occupant, and the source for each fact with a confidence level.\n\nBuild everything in Blender Python. No downloaded meshes, textures or HDRIs. Write reusable generators (Victorian commercial facade, mansard roof, bay windows, awnings, painted signage, gas and electric street lamps, cable car, horse-drawn wagon, early automobile) and assemble the street from the source file, so every building traces back to data.\n\nProvide a 10 second video up the street.\"",
+            "createdAt": "2026-09-22T18:34:16.000Z",
+            "url": "https://x.com/alexalbert__/status/2102466524934271381",
+            "likes": 73,
+            "retweets": 1,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "Claude Tag 里的 prompt\n\n「在 Blender 里复原 1906 年 4 月 17 日下午、地震前那一刻的旧金山 Market Street。\n\n范围：从 Ferry Building 沿 Market 街一直到 Fifth Street，包括 Palace Hotel、Call Building、Chronicle Building、Lotta's Fountain 和 the Emporium。\n\n在动手建任何模型之前，先从这些资料建一份源文件：1899–1905 年的 Sanborn 火灾保险地图（占地轮廓、高度、材质、住户）、Miles Brothers 的影片《A Trip Down Market Street》（1906 年 4 月）、OpenSFHistory、Library of Congress 和 David Rumsey 收藏的当年照片，以及 USGS 地形数据。每栋建筑都要记录占地轮廓、高度、立面材质、住户，以及每一条事实的来源和置信度。\n\n全部用 Blender Python 搭建。不下载任何网格、贴图或 HDRI。编写可复用的生成器（维多利亚式商业立面、孟莎屋顶、凸窗、遮阳篷、手绘招牌、燃气和电灯路灯、缆车、马车、早期汽车），再依据源文件组装出整条街，让每栋建筑都能追溯到数据。\n\n输出一段沿街向上望去的 10 秒视频。」"
+          },
+          {
+            "id": "2102466523164274839",
+            "text": "I've been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build an entire world from a single prompt.\n\nHistorically accurate San Francisco Market street in 1906, pre-earthquake https://t.co/aisvFLFGy3",
+            "createdAt": "2026-09-22T18:34:15.000Z",
+            "url": "https://x.com/alexalbert__/status/2102466523164274839",
+            "likes": 890,
+            "retweets": 40,
+            "replies": 54,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "我最近用 Opus 5.5 玩 Blender 玩上瘾了。它更强的 3D 建模和视觉能力意味着，一个 prompt 就能造出整个世界。\n\n1906 年地震前、历史考据准确的旧金山 Market Street https://t.co/aisvFLFGy3"
+          },
+          {
+            "id": "2102458350348935454",
+            "text": "need to make sure you've been updated to this (rolling out to everyone soon if you haven't!) https://t.co/fjCAQKazVs",
+            "createdAt": "2026-09-22T18:01:47.000Z",
+            "url": "https://x.com/alexalbert__/status/2102458350348935454",
+            "likes": 31,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": true,
+            "quotedTweetId": "2100258490740539730",
+            "zh": "得确认一下你已经更新到这个版本了（如果还没，很快就推送给所有人！）https://t.co/fjCAQKazVs"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "bio": "ceo @box - your business lives in content. unleash it with AI",
+        "tweets": [
+          {
+            "id": "2102477253070430322",
+            "text": "What an insane day in AI. The frontier models just became substantially cheaper, with the Opus 5.5 price cuts, and now with GPT-6 Sol and Luna dropping token prices by 50%.\n\nThe rate at which the cost per task (on a like-for-like basis) drops in AI is unlike any other type of technology in history. And every time the cost of AI drops, the use-cases you can deploy agents against dramatically increase. This is Jevons paradox applied to agents.\n\nThese improvements will directly lead to broader diffusion of AI in the economy as we can use agents to process all of our data, scan our code for security issues, read through all log data to make decisions, have agent swarms in workflows, and much more. The cost of tokens is directly correlated to these use-cases being opened up at scale.",
+            "createdAt": "2026-09-22T19:16:53.000Z",
+            "url": "https://x.com/levie/status/2102477253070430322",
+            "likes": 655,
+            "retweets": 69,
+            "replies": 68,
+            "isQuote": true,
+            "quotedTweetId": "2102460975790137662",
+            "zh": "AI 圈今天这一天简直疯了。前沿模型刚刚大幅降价，先是 Opus 5.5 砍价，现在 GPT-6 Sol 和 Luna 又把 token 价格降了 50%。\n\n在 AI 里，每个任务的成本（同等条件下比较）下降的速度，是历史上任何一类技术都比不了的。而每一次 AI 成本下降，能用 agent 去做的场景就会暴增。这就是杰文斯悖论在 agent 上的体现。\n\n这些改进会直接推动 AI 在经济中更广泛地扩散——我们可以用 agent 处理所有数据、扫描代码里的安全问题、读遍所有日志来做决策、在 workflows 里跑 agent 集群，还有更多。token 成本，与这些场景能否大规模打开，直接挂钩。"
+          },
+          {
+            "id": "2102448415775051790",
+            "text": "At Box, we've been testing Opus 5.5 on a variety of complex enterprise knowledge work tasks dealing with unstructured data with the Box Agent.  \n\nOverall, we saw frontier capability levels, with major performance improvements over Opus 5. 63% fewer tokens used, 42% less verbosity, and 30% faster vs. Opus 5. And the model itself is cheaper, so this is a major win for any agentic computer use, coding, analytics, or data work that enterprises will be doing.\n\nHere are some examples of the task wins and performance gains across a variety of industry tests that we performed:\n\n• Financial services - due diligence (+39% task accuracy): A year of transaction records, with the job of finding every miscalculation in an acquisition target's pricing tool. Opus 5.5 scored a perfect result on every  attempt in half the words Opus 5 used, consuming 82% fewer tokens overall.\n\n• Technology - cloud cost analysis (+65% task accuracy): Work out what a company should actually change about its cloud spend. Opus 5.5 picked the right basis for the retention calculation and kept the source data's unit conventions straight all the way through, so the number at the end actually holds up. It took half the time Opus 5 took, with 70% fewer tokens.\n\n• Consumer products - client account analysis (+17% task accuracy): Set the onboarding targets for a client account, reading across the signed contract, a satisfaction tracker and a team metrics sheet. The contract never states a senior/junior split, so Opus 5.5 derived it from the 18-person roster and showed the rule it used; several clients had a perfect 10 on individual survey questions, so it averaged each client's responses instead of crowning the single 10. It finished this one in half the time, on 78% fewer tokens. \n\n• Clinical diagnostics - data analysis (+15% task accuracy): Malaria rapid-test performance across a dry and a wet season: build the patient records out of two clinical PDFs, compute positive test rates by season and gender, and test whether parasite counts really differ between test-positive and test-negative patients. Opus 5.5 caught that the two groups' standard deviations differed more than 100-fold, re-ran it the right way, and found the dry-season difference didn't hold up after all. This accuracy gain came with a final answer that was half the length of Opus 5's, and also needed 78% fewer tokens end to end. \n\nCustomers will be able to build AI Agents with Opus 5.5 shortly in the Box AI Studio.",
+            "createdAt": "2026-09-22T17:22:18.000Z",
+            "url": "https://x.com/levie/status/2102448415775051790",
+            "likes": 232,
+            "retweets": 23,
+            "replies": 40,
+            "isQuote": true,
+            "quotedTweetId": "2102435511222890900",
+            "zh": "在 Box，我们一直用 Box Agent 把 Opus 5.5 放在各种处理非结构化数据的复杂企业知识工作任务上做测试。\n\n总体来看，我们看到了前沿级别的能力，相比 Opus 5 有大幅性能提升：token 用量减少 63%，啰嗦程度降低 42%，速度比 Opus 5 快 30%。而且模型本身还更便宜，所以对企业将来要做的任何 agentic 电脑操作、编程、分析或数据工作来说，这都是大赢。\n\n以下是我们做的各类行业测试中，一些任务成功率和性能提升的例子：\n\n• 金融服务——尽职调查（任务准确率 +39%）：一年的交易记录，任务是找出收购标的定价工具里的每一处计算错误。Opus 5.5 每一次尝试都拿到满分，字数只有 Opus 5 的一半，整体 token 消耗少了 82%。\n\n• 科技——云成本分析（+65%）：搞清楚一家公司在云支出上到底该改什么。Opus 5.5 选对了留存计算的基准，并且全程把源数据的单位约定保持一致，所以最后的数字真的站得住脚。耗时只有 Opus 5 的一半，token 少了 70%。\n\n• 消费品——客户账户分析（+17%）：为一个客户账户设定 onboarding 目标，需要同时读已签署的合同、满意度追踪表和团队指标表。合同里从来没写明资深/初级人员的比例，所以 Opus 5.5 从 18 人名单里推出了这个比例，并展示了自己用的规则；有几个客户在单项调研题上拿了满分 10 分，它就把每个客户的回答取平均，而不是直接捧出那唯一的 10 分。这一项它用一半时间完成，token 少了 78%。\n\n• 临床诊断——数据分析（+15%）：旱季和雨季的疟疾快速检测表现：从两份临床 PDF 里整理出患者记录，按季节和性别计算检测阳性率，并检验检测阳性与阴性的患者之间寄生虫计数是否真的存在差异。Opus 5.5 察觉到两组的标准差相差超过 100 倍，用正确的方法重跑了一遍，发现旱季的那点差异根本站不住脚。这一准确率的提升，伴随的是最终答案长度只有 Opus 5 的一半，端到端 token 也少了 78%。\n\n客户很快就能在 Box AI Studio 里用 Opus 5.5 构建 AI Agent。"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack & GBrain—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+        "tweets": [
+          {
+            "id": "2102544711647129902",
+            "text": "Capy (@capydotai) lets me drop PRs much much faster than I would with Codex or Claude Code alone https://t.co/s6xeWJahvJ",
+            "createdAt": "2026-09-22T23:44:57.000Z",
+            "url": "https://x.com/garrytan/status/2102544711647129902",
+            "likes": 111,
+            "retweets": 9,
+            "replies": 29,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "Capy（@capydotai）让我提交 PR 的速度，比单用 Codex 或 Claude Code 快得多得多 https://t.co/s6xeWJahvJ"
+          },
+          {
+            "id": "2102537390774759761",
+            "text": "If you're working on something cool, GStack does actually tell you to apply to YC :-) https://t.co/G4jWbqwINt",
+            "createdAt": "2026-09-22T23:15:51.000Z",
+            "url": "https://x.com/garrytan/status/2102537390774759761",
+            "likes": 155,
+            "retweets": 3,
+            "replies": 23,
+            "isQuote": true,
+            "quotedTweetId": "2101725382345114049",
+            "zh": "如果你正在做点什么有意思的东西，GStack 真的会建议你去申请 YC :-) https://t.co/G4jWbqwINt"
+          },
+          {
+            "id": "2102501556348440983",
+            "text": "We need to teach the world to prompt and maximally use AI: to help all people see the way it can give you wings in all your pursuits \n\nThen we need yearn to solve more problems for ourselves and for one another https://t.co/e7yOADOf6s",
+            "createdAt": "2026-09-22T20:53:28.000Z",
+            "url": "https://x.com/garrytan/status/2102501556348440983",
+            "likes": 144,
+            "retweets": 17,
+            "replies": 31,
+            "isQuote": true,
+            "quotedTweetId": "2102488965085556974",
+            "zh": "我们得教会全世界怎么写 prompt、怎么把 AI 用到极致：让所有人都看到，AI 能在你的每一项追求里给你插上翅膀\n\n然后我们还要渴望为自己、也为彼此解决更多问题 https://t.co/e7yOADOf6s"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+        "tweets": [
+          {
+            "id": "2102534909076349291",
+            "text": "The amount of SPVs organzied by even the “best” investors is simply mind boggling..\n\nTo the point that if you read headlines of a large fundraise, you can be reasonably sure now that a large amount of it came from SPVs even though the headlines say something else. \n\nCombine that with tranched valuations and revenue not being the same, all I’ll say don’t believe the headlines anymore. \n\nProof is in the pudding and the pudding is not publicly visible anywhere.",
+            "createdAt": "2026-09-22T23:06:00.000Z",
+            "url": "https://x.com/nikunj/status/2102534909076349291",
+            "likes": 34,
+            "retweets": 0,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "连「最顶尖」的投资人组织的 SPV 数量都多得令人匪夷所思……\n\n以至于现在你看到一笔大额融资的新闻标题，基本可以确定其中很大一部分来自 SPV，尽管标题上写的是另一回事。\n\n再加上分期估值、收入和实际并不一致，我只能说：别再信新闻标题了。\n\n真相就在布丁里，可这块布丁在任何公开场合都看不到。"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world.\n@OpenClaw🦞 + @OpenAI",
+        "tweets": [
+          {
+            "id": "2102501642176528743",
+            "text": "Had ChatGPT sometimes crashing on me after updating to macOS 27 and... Astra found a ~14 year old bug in libuv. https://t.co/JE8GssiRXJ",
+            "createdAt": "2026-09-22T20:53:48.000Z",
+            "url": "https://x.com/steipete/status/2102501642176528743",
+            "likes": 850,
+            "retweets": 33,
+            "replies": 54,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "更新到 macOS 27 之后，ChatGPT 有时候会直接崩掉，然后…… Astra 在 libuv 里找到了一个大约 14 年前的 bug。https://t.co/JE8GssiRXJ"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+        "tweets": [
+          {
+            "id": "2102557212581536207",
+            "text": "@every https://t.co/OIFF8UYr2k",
+            "createdAt": "2026-09-23T00:34:37.000Z",
+            "url": "https://x.com/danshipper/status/2102557212581536207",
+            "likes": 0,
+            "retweets": 0,
+            "replies": 0,
+            "isQuote": true,
+            "quotedTweetId": "2102556723244564715"
+          },
+          {
+            "id": "2102556723244564715",
+            "text": "i added almost 10k new followers today! \n\nif you're new around here, here are two things to start with:\n\n1. my vibe check on opus 5.5 vs. sol-6 on @every: https://t.co/61XgBTikxH\n2. after automation, my take on why AI automation creates more good work to do for human experts: https://t.co/Lb7SUCe2pO\n\nif you like those two things you should subscribe to @every—there's more where that came from!",
+            "createdAt": "2026-09-23T00:32:41.000Z",
+            "url": "https://x.com/danshipper/status/2102556723244564715",
+            "likes": 37,
+            "retweets": 1,
+            "replies": 5,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "今天我涨了将近 1 万新粉丝！\n\n如果你是刚来的，可以先从这两篇看起：\n\n1. 我在 @every 上对 opus 5.5 vs. sol-6 的实测体验：https://t.co/61XgBTikxH\n2. 自动化之后，我为什么觉得 AI 自动化反而会给人类专家创造更多好工作：https://t.co/Lb7SUCe2pO\n\n如果这两篇合你口味，那就该订阅 @every——好东西还多着呢！"
+          },
+          {
+            "id": "2102555830080205130",
+            "text": "😚 https://t.co/XHmyhFqjxB",
+            "createdAt": "2026-09-23T00:29:08.000Z",
+            "url": "https://x.com/danshipper/status/2102555830080205130",
+            "likes": 16,
+            "retweets": 0,
+            "replies": 2,
+            "isQuote": true,
+            "quotedTweetId": "2102442331941335186"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      },
+      {
+        "source": "x",
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "bio": "General Partner @SPC, Co-Founder @Bevel_Health | Ex: Early Eng @facebook, CTO @Dropbox, Board @Flipkart | Optimist, Builder, Dad",
+        "tweets": [
+          {
+            "id": "2102498288658526614",
+            "text": "I have hosted over 50 Minus One fireside chats with lots of interesting and well known people over the years @spc.\n\nThe first one my 9 year old asked to attend was yesterday's with Dmitri of Waymo.\n\nThe evocative beauty of building things for the physical world is undeniable.",
+            "createdAt": "2026-09-22T20:40:29.000Z",
+            "url": "https://x.com/adityaag/status/2102498288658526614",
+            "likes": 17,
+            "retweets": 0,
+            "replies": 1,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "这些年我在 @spc 主持了 50 多场 Minus One 炉边对话，请过不少有趣又有名的人物。\n\n我 9 岁的孩子第一次主动说想来，就是昨天和 Waymo 的 Dmitri 那一场。\n\n为物理世界造东西，那种直击人心的美，毋庸置疑。"
+          },
+          {
+            "id": "2102457464432284019",
+            "text": "Safety and alignment of \"models\" is the raging topic today.\n\nBut the original \"safety\" debate for AI/MachineLearning was actually in autonomous vehicles!\n\nMy first Waymo ride truly felt like a religious experience. It was mind-boggling that we could build technology that actually worked on real roads with all the challenges that entails.\n\nI thought the most interesting part of the talk yesterday was the extensive eval/testing infrastructure that Waymo has built out in order to build the confidence to release 2-ton robots traveling at 30mph through urban environments.\n\nIt was awesome to host @dmitri_dolgov @spc yesterday.  \n\nI learnt a lot myself and I am excited to release the full video soon.",
+            "createdAt": "2026-09-22T17:58:15.000Z",
+            "url": "https://x.com/adityaag/status/2102457464432284019",
+            "likes": 41,
+            "retweets": 4,
+            "replies": 4,
+            "isQuote": false,
+            "quotedTweetId": null,
+            "zh": "今天最火的话题，是\"模型\"的安全与对齐。\n\n但 AI／机器学习最早的\"安全\"之争，其实发生在自动驾驶领域！\n\n我第一次坐 Waymo，真的像经历了一场宗教体验。我们居然能造出在真实道路上真正跑得起来的技术——而真实道路意味着多少挑战——想想就觉得不可思议。\n\n昨天这场对谈我觉得最有意思的一点，是 Waymo 为了攒够底气、把两吨重、以 30mph 穿行城区的机器人放上路，搭起了多么庞大的评测／测试基础设施。\n\n昨天能在 @spc 主持 @dmitri_dolgov 的分享，太赞了。\n\n我自己也学到很多，很期待尽快放出完整视频。"
+          }
+        ],
+        "category": "influencer",
+        "sourceStatus": "partial-fallback"
+      }
+    ],
+    "followedAccounts": [
+      {
+        "name": "Ciguleva",
+        "handle": "ciguleva",
+        "category": "influencer"
+      },
+      {
+        "name": "Pieter Levels",
+        "handle": "levelsio",
+        "category": "influencer"
+      },
+      {
+        "name": "Zara Zhang",
+        "handle": "zarazhangrui",
+        "category": "influencer"
+      },
+      {
+        "name": "Gary",
+        "handle": "otzgary",
+        "category": "influencer"
+      },
+      {
+        "name": "10x My Life",
+        "handle": "10xmylife",
+        "category": "influencer"
+      },
+      {
+        "name": "OpenAI",
+        "handle": "OpenAI",
+        "category": "official"
+      },
+      {
+        "name": "Grok",
+        "handle": "grok",
+        "category": "official"
+      },
+      {
+        "name": "Gemini",
+        "handle": "GeminiApp",
+        "category": "official"
+      },
+      {
+        "name": "Google",
+        "handle": "Google",
+        "category": "official"
+      },
+      {
+        "name": "Google DeepMind",
+        "handle": "GoogleDeepMind",
+        "category": "official"
+      },
+      {
+        "name": "DeepSeek",
+        "handle": "deepseek_ai",
+        "category": "official"
+      },
+      {
+        "name": "Sam Altman",
+        "handle": "sama",
+        "category": "official"
+      },
+      {
+        "name": "a16z",
+        "handle": "a16z",
+        "category": "official"
+      },
+      {
+        "name": "TechFlow",
+        "handle": "TechFlowPost",
+        "category": "official"
+      },
+      {
+        "name": "Z.ai",
+        "handle": "Zai_org",
+        "category": "official"
+      },
+      {
+        "name": "OpenAI Developers",
+        "handle": "OpenAIDevs",
+        "category": "official"
+      },
+      {
+        "name": "Claude",
+        "handle": "claudeai",
+        "category": "official"
+      },
+      {
+        "name": "Midjourney",
+        "handle": "midjourney",
+        "category": "official"
+      },
+      {
+        "name": "晚点 LatePost",
+        "handle": "latepostnews",
+        "category": "official"
+      },
+      {
+        "name": "Cursor",
+        "handle": "cursor_ai",
+        "category": "official"
+      },
+      {
+        "name": "Hyperliquid",
+        "handle": "HyperliquidX",
+        "category": "official"
+      },
+      {
+        "name": "A24",
+        "handle": "A24",
+        "category": "official"
+      },
+      {
+        "name": "Kimi",
+        "handle": "Kimi_Moonshot",
+        "category": "official"
+      },
+      {
+        "name": "Andrej Karpathy",
+        "handle": "karpathy",
+        "category": "influencer"
+      },
+      {
+        "name": "Swyx",
+        "handle": "swyx",
+        "category": "influencer"
+      },
+      {
+        "name": "Josh Woodward",
+        "handle": "joshwoodward",
+        "category": "influencer"
+      },
+      {
+        "name": "Kevin Weil",
+        "handle": "kevinweil",
+        "category": "influencer"
+      },
+      {
+        "name": "Peter Yang",
+        "handle": "petergyang",
+        "category": "influencer"
+      },
+      {
+        "name": "Nan Yu",
+        "handle": "thenanyu",
+        "category": "influencer"
+      },
+      {
+        "name": "Madhu Guru",
+        "handle": "realmadhuguru",
+        "category": "influencer"
+      },
+      {
+        "name": "Amanda Askell",
+        "handle": "AmandaAskell",
+        "category": "influencer"
+      },
+      {
+        "name": "Cat Wu",
+        "handle": "_catwu",
+        "category": "influencer"
+      },
+      {
+        "name": "Thariq",
+        "handle": "trq212",
+        "category": "influencer"
+      },
+      {
+        "name": "Google Labs",
+        "handle": "GoogleLabs",
+        "category": "official"
+      },
+      {
+        "name": "Amjad Masad",
+        "handle": "amasad",
+        "category": "influencer"
+      },
+      {
+        "name": "Guillermo Rauch",
+        "handle": "rauchg",
+        "category": "influencer"
+      },
+      {
+        "name": "Alex Albert",
+        "handle": "alexalbert__",
+        "category": "influencer"
+      },
+      {
+        "name": "Aaron Levie",
+        "handle": "levie",
+        "category": "influencer"
+      },
+      {
+        "name": "Ryo Lu",
+        "handle": "ryolu_",
+        "category": "influencer"
+      },
+      {
+        "name": "Garry Tan",
+        "handle": "garrytan",
+        "category": "influencer"
+      },
+      {
+        "name": "Matt Turck",
+        "handle": "mattturck",
+        "category": "influencer"
+      },
+      {
+        "name": "Nikunj Kothari",
+        "handle": "nikunj",
+        "category": "influencer"
+      },
+      {
+        "name": "Peter Steinberger",
+        "handle": "steipete",
+        "category": "influencer"
+      },
+      {
+        "name": "Dan Shipper",
+        "handle": "danshipper",
+        "category": "influencer"
+      },
+      {
+        "name": "Aditya Agarwal",
+        "handle": "adityaag",
+        "category": "influencer"
+      }
+    ],
+    "accountStatus": [
+      {
+        "handle": "ciguleva",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "levelsio",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "zarazhangrui",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "otzgary",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "10xmylife",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "OpenAI",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "grok",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "GeminiApp",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "Google",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "GoogleDeepMind",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "deepseek_ai",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "sama",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "a16z",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "TechFlowPost",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "Zai_org",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "OpenAIDevs",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "claudeai",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "midjourney",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "latepostnews",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "cursor_ai",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "HyperliquidX",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "A24",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "Kimi_Moonshot",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "karpathy",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "swyx",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "joshwoodward",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 1,
+        "error": null
+      },
+      {
+        "handle": "kevinweil",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "petergyang",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "thenanyu",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "realmadhuguru",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "AmandaAskell",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "_catwu",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 2,
+        "error": null
+      },
+      {
+        "handle": "trq212",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "GoogleLabs",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "amasad",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 1,
+        "error": null
+      },
+      {
+        "handle": "rauchg",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "alexalbert__",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "levie",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 2,
+        "error": null
+      },
+      {
+        "handle": "ryolu_",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "garrytan",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "mattturck",
+        "status": "unsourced",
+        "source": null,
+        "tweetCount": 0,
+        "error": "未配置 TWITTERAPI_IO_KEY，且中央 feed 未收录该账号"
+      },
+      {
+        "handle": "nikunj",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 1,
+        "error": null
+      },
+      {
+        "handle": "steipete",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 1,
+        "error": null
+      },
+      {
+        "handle": "danshipper",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 3,
+        "error": null
+      },
+      {
+        "handle": "adityaag",
+        "status": "central",
+        "source": "central-feed",
+        "tweetCount": 2,
+        "error": null
+      }
+    ],
+    "blogs": [],
+    "feedStatus": {
+      "podcastsAvailable": true,
+      "blogsAvailable": true,
+      "xSource": "central-feed"
+    },
+    "stats": {
+      "podcastEpisodes": 0,
+      "xBuilders": 15,
+      "totalTweets": 34,
+      "blogPosts": 0,
+      "feedGeneratedAt": "2026-09-23T15:59:13.865Z"
+    },
+    "errors": [
+      "未配置 TWITTERAPI_IO_KEY：只能使用中央 feed，自定义账号无法抓取"
+    ]
+  },
+  "lede": {
+    "headline": "模型齐降价，Agent 经济性重估",
+    "lede": "Anthropic 发布 Claude Opus 5.5 并设为 Claude Code 与应用默认模型，价格同步下调；同日 GPT-6 Sol 与 Luna 把 token 价砍半。Box 实测 token 用量降 63%、快 30%——成本每降一档，可部署的 agent 场景就多一层。",
+    "briefs": {
+      "sama": "称创业公司天然擅长的事大公司很难维持，并预告团队下一步",
+      "claudeai": "宣布 Opus 5.5 上线，并展示用它做出的绘画与积木应用",
+      "joshwoodward": "晒出一个大里程碑，未透露细节",
+      "petergyang": "称 Opus 5.5 是近期最令他兴奋的 Claude 模型",
+      "_catwu": "Opus 5.5 成 Claude Code 与应用默认模型，额度多 25%",
+      "trq212": "主张别把模型能力用于堆功能，而要花时间理解用户、做实验",
+      "amasad": "拿人工与超级智能玩文字梗",
+      "rauchg": "Next.js 评测显示三家前沿模型并列 97%，Grok 更便宜",
+      "alexalbert__": "用 Opus 5.5 在 Blender 重建 1906 年旧金山街景",
+      "levie": "称 AI 成本每降一次，可部署的 agent 场景就多一层",
+      "garrytan": "推荐用 Capy 加速提 PR，并称 GStack 会建议申请 YC",
+      "nikunj": "提醒大额融资里大量资金来自 SPV 与分级估值，别信头条",
+      "steipete": "称 Astra 在 libuv 里找到一个约 14 年前的旧 bug",
+      "danshipper": "一天新增近万粉，推荐自家 Opus 5.5 对比与自动化观点",
+      "adityaag": "称自动驾驶才是 AI 安全的最早战场，赞叹 Waymo 的测试体系"
+    },
+    "picks": [
+      "2102477253070430322",
+      "2102519097770885231",
+      "2102466523164274839"
+    ],
+    "model": "deepseek-v4-flash"
+  },
+  "ledeError": null,
+  "delivery": {
+    "status": "skipped"
+  },
+  "translateError": null,
+  "number": 1,
+  "prev": null,
+  "next": "2026-09-24"
+}

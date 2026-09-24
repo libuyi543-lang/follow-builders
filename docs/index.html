@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>建造者晨报</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect x='4' y='4' width='56' height='56' rx='6' fill='%23b23a26'/><text x='32' y='45' font-size='36' text-anchor='middle' fill='%23f3eee3' font-family='Songti SC' font-weight='900'>晨</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <filter id="ink-bleed"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="1.6"/></filter>
+  </svg>
+
+  <nav class="strip" aria-label="版面">
+    <div class="strip-inner">
+      <a href="#/" data-nav="issue">今日</a>
+      <a href="#/archive" data-nav="archive">往期</a>
+      <a href="#/roster" data-nav="roster">名录</a>
+      <span class="strip-spacer"></span>
+      <span class="strip-note" id="strip-note"></span>
+      <span class="lang-switch" data-lang-switch role="group" aria-label="译文">
+        <button type="button" data-mode="zh">中</button>
+        <button type="button" data-mode="both">对照</button>
+        <button type="button" data-mode="en">原文</button>
+      </span>
+      <button type="button" class="press-button" id="reprint">加印本期</button>
+    </div>
+  </nav>
+
+  <main id="app" class="sheet"></main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
